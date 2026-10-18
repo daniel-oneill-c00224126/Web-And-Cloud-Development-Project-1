@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-close_ticket.php-->
 <?php
 
 session_start();
@@ -34,3 +30,7 @@ if (!isset($_SESSION["user_id"]))
         header("Location: my_tickets.php");
         exit();
         ?>
+        <!--
+C00224126
+Daniel O'Neill
+close_ticket.php-->

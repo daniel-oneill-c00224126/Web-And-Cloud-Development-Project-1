@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-index.php-->
 <!DOCTYPE html>
 <?php
 require "db.php";
@@ -24,3 +20,7 @@ require "db.php";
             
     </body>
 </html>
+<!--
+C00224126
+Daniel O'Neill
+index.php-->

@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-agent_tickets.php-->
 <?php
 
 session_start();
@@ -90,3 +86,7 @@ if (!isset($_SESSION["agent_id"]))
     <br>
     <a href="agent_dashboard.php"><button>Back to Dashboard</button></a>
 </body>
+<!--
+C00224126
+Daniel O'Neill
+agent_tickets.php-->

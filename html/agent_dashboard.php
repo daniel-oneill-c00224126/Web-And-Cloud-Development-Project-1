@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-agent_dashboard.php-->
 <?php
 
 session_start();
@@ -25,3 +21,7 @@ if (!isset($_SESSION["agent_id"])) {
         <a href="logout.php">Logout</a>
     </div>
 </body>
+<!--
+C00224126
+Daniel O'Neill
+agent_dashboard.php-->

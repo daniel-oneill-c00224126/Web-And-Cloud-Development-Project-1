@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-user_dashboard.php-->
 <?php
 session_start();
 if (!isset($_SESSION["user_id"])) 
@@ -28,3 +24,7 @@ if (!isset($_SESSION["user_id"]))
         </div>
     </body>
 </html>
+<!--
+C00224126
+Daniel O'Neill
+user_dashboard.php-->

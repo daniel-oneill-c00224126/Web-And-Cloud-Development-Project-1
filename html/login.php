@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-login.php-->
 <?php
 session_start();
 require "db.php";
@@ -49,3 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     </form>
     <p>Don't have an account? <a href="register.php">Register here</a></p>
 </body>
+<!--
+C00224126
+Daniel O'Neill
+login.php-->

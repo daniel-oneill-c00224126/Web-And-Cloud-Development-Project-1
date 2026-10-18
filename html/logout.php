@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-logout.php-->
 <?php
 
 session_start();

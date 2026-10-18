@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-open_ticket.php-->
 <?php 
 session_start();
 include "db.php";
@@ -82,3 +78,7 @@ if (isset($_POST["subject"], $_POST["description"]))
         </script>
     </body>
 </html>
+<!--
+C00224126
+Daniel O'Neill
+open_ticket.php-->

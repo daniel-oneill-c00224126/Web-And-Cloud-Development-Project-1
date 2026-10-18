@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-agent_login.php-->
 <?php
 
 session_start();
@@ -52,3 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         </form>
     </body>
 </html>
+<!--
+C00224126
+Daniel O'Neill
+agent_login.php-->

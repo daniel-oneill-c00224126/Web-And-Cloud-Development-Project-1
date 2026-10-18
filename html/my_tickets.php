@@ -1,7 +1,3 @@
-<!--
-C00224126
-Daniel O'Neill
-my_tickets.php-->
 <?php
 
 session_start();
@@ -67,3 +63,7 @@ if (!isset($_SESSION["user_id"]))
         <a href="user_dashboard.php"><button>Back to Dashboard</button></a>
     </body>
 </html>
+<!--
+C00224126
+Daniel O'Neill
+my_tickets.php-->
