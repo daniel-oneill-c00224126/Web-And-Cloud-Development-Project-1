@@ -1,3 +1,7 @@
+<!--
+C00224126
+Daniel O'Neill
+open_ticket.php-->
 <?php 
 session_start();
 include "db.php";

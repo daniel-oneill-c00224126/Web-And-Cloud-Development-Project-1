@@ -1,3 +1,7 @@
+<!--
+C00224126
+Daniel O'Neill
+user_dashboard.php-->
 <?php
 session_start();
 if (!isset($_SESSION["user_id"])) 

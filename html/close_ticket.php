@@ -1,3 +1,7 @@
+<!--
+C00224126
+Daniel O'Neill
+close_ticket.php-->
 <?php
 
 session_start();
