@@ -1,0 +1,121 @@
+body 
+{
+    background-color: #eeeeea;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+th
+{
+    background-color: #deded5;
+    color: #444444;
+    padding: 8px;
+    text-align: left;
+}
+td
+{
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+button,input[type="submit"]
+{
+    background-color: #e5e5dc;
+    color: #333333;
+    border: 1px solid #999999;
+    padding: 5px 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover,
+input[type="submit"]:hover,
+.back-button:hover {
+    background-color: #d5d5c5;
+}
+
+input[type="text"]
+{
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    padding: 5px;
+    font-size: 13px;
+}
+h1
+{
+    background-color: #deded5;
+    color: #444444;
+    font-size: 24px;
+    padding: 12px;
+    border:1px solid #cccccc;
+    margin-bottom: 15px;
+}
+.dashboard-links a
+{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333333;
+    background-color: #e5e5dc;
+    padding: 5px 8px;
+    border: 1px solid #999999;
+}
+.dashboard-links a:hover
+{
+    background-color: #d2d2c8;
+}
+input[type="text"], input[type="password"]
+{
+    background-color: #f8f8f5;
+    color: #333333;
+    border: 1px solid #999999;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+textarea
+{
+    width:300px;
+    height: 100px;
+    resize: none;
+}
+input:focus, textarea:focus
+{
+    outline: 2px solid #aaa99a;
+}
+.form-row
+{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.form-row label
+{
+    width: 100px;
+    flex-shrink: 0;
+    padding-top: 8px;
+}
+.back-button
+{
+    display: inline-block;
+    background-color: #e5e5dc;
+    color: #333333;
+    border: 1px solid #999999;
+    padding: 5px 8px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+button
+{
+    vertical-align:middle;
+    box-sizing: border-box;
+}
